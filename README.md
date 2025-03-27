@@ -1,19 +1,19 @@
-# Task API Project
+# Proyecto API de Tareas
 
-This project demonstrates a simple Node.js API for managing tasks, integrated with Docker for containerization and Jenkins for CI/CD pipeline.
+Este proyecto demuestra una API simple de Node.js para la gestión de tareas, integrada con Docker para la contenedorización y Jenkins para el pipeline de CI/CD.
 
-## Features
+## Características
 
-- List all tasks  
-- Get task by ID
+- Listar todas las Tasks  
+- Obtener Task por ID
 
-## Running Locally
+## Ejecutar Localmente
 
-1. Install dependencies: `npm install`  
-2. Start the server: `npm start`
+1. Instalar dependencias: `npm install`  
+2. Iniciar el servidor: `npm start`
 
-## Running with Docker
+## Ejecutar con Docker
 
-1. Build the image: `docker build -t task-api .`  
-2. Run the container: `docker run -p 3000:3000 task-api`
+1. Construir la imagen: `docker build -t desafio-pipeline .`  
+2. Ejecutar el contenedor: `docker run -p 3000:3000 desafio-pipeline`
 
