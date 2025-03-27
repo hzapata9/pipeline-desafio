@@ -5,7 +5,10 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "echo 'No hay proceso de compilación en este proyecto'"  ,
+    "test": "jest --coverage --forceExit", 
+    "lint": "eslint ." 
   },
   "dependencies": {
     "express": "^4.18.2"
