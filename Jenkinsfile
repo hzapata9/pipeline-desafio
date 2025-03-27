@@ -1,7 +1,7 @@
 pipeline { 
     agent any 
     environment { 
-        NODE_VERSION = '23' // Cambia si usas otra versión de Node.js 
+        NODE_VERSION = '23'
         PATH = "/usr/local/bin:/usr/local/Cellar/node/23.10.0_1/bin:$PATH"
     
     } 
@@ -18,9 +18,6 @@ pipeline {
                 script { 
                     try { 
                         echo "⚙️ Instalando dependencias..." 
-                        
-                        sh 'whoami'
-                        sh 'which npm'
                         sh 'npm install'
                         sh 'npm run build' 
                     } catch (Exception e) { 
