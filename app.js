@@ -23,5 +23,5 @@ app.get('/tasks/:id', (req, res) => {
 const PORT = 3000;
 app.listen(PORT, () => console.log(`API is running on port ${PORT}`));
 
-// eslint-disable-next-line no-undef
+
 module.exports = app;

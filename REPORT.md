@@ -1,32 +1,38 @@
-# Pipeline Execution Report
+# Informe de Ejecución del Pipeline
 
-## Summary
+## Resumen
 
-This report outlines the steps taken to configure and execute the CI/CD pipeline for the Task API project.
+Este informe describe los pasos realizados para configurar y ejecutar el pipeline de CI/CD para el proyecto Task API.
 
-## Steps
+## Pasos
 
-1. **Git Repository Management**  
+1. **Gestión del Repositorio Git**  
      
-   - Initialized a local repository and connected it to GitHub.
+   - Se inicializó un repositorio local y se conectó a GitHub.
+   - Se hizo commit de una versión inicial de los archivos
 
    
 
-2. **Docker Integration**  
+2. **Integración con Docker**  
      
-   - Created a Dockerfile to containerize the application.
+   - Se creó un Dockerfile para contenerizar la aplicación
+   - Se construye el contenedor de docker y se ejecuta (ver imagen en archivo documents/ReportPipeline.pdf)
 
    
 
-3. **Jenkins Configuration**  
+3. **Configuración de Jenkins**  
      
-   - Configured Jenkins to automate the build, test, and deploy process.
+   - Se configuró Jenkins para automatizar el proceso de construcción, prueba y despliegue.
+   - Se usó opción "Pipeline script from SCM"
+   - Se usó nombre del Branch: main
+   - Y para Script path: Dockerfile 
 
-## Issues Encountered
 
-- \[Optional section for issues\]
+## Problemas Encontrados
 
-## Results
+- \[Sección opcional para problemas\]
 
-- \[Add screenshots or logs of successful pipeline runs\]
+## Resultados
+
+- \[Agregar capturas de pantalla o registros de ejecuciones exitosas del pipeline\]
 
